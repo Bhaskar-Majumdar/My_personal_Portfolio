@@ -3,6 +3,21 @@ body{
     text-align:justify;
     margin: 0px;
 }
+
+#logo img{
+    float: left;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#menu{
+    float: left;
+    width: 20%;
+    text-align: right; 
+}
+
+
+
 h1{
     font-size: 50px;
     padding-left: 10px;
@@ -78,4 +93,6 @@ h2{
     padding-left: 5px;
     padding-right: 5px;
 }
-
+footer p{
+    text-align: center;
+}
