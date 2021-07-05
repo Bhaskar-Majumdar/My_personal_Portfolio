@@ -1,0 +1,81 @@
+body{
+    font-family:'Poppins', sans-serif;
+    text-align:justify;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    padding-left: 10px;
+}
+h2{
+    font-size: 35px;
+}
+
+.color{
+    color: chocolate;
+}
+.pakages{
+    display: flex;
+}
+.fast-part1{
+    width: 65%;
+    padding: 2%;
+}
+.fast-part2{
+    width: 35%;
+    padding: 2%;
+}
+.fast-part2 img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background: rgb(241, 184, 77);
+    font-weight: 700;
+    color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.add-first-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat
+}
+.add-second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5%;
+}
+
+.experiecn-list{
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px greenyellow;  
+}
+
+.add-third-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: 6%;
+}
+
+#stack_developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 123, 0), rgb(66, 202, 12));
+    border-image-slice: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#web_developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(193, 13, 199), rgb(66, 97, 236));
+    border-image-slice: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
